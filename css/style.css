@@ -1,0 +1,466 @@
+/* ------ PALETA DE COLORES ---- */
+
+/*
+#C8DEC9
+#8ABF9C
+#62A07B
+#4D6555
+#5DAB81- Verde claro
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* --- MENU DE NAVEGACION --- */
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.headerPrincipal {
+	background-color: #8BBD9A;
+	padding: 20px 0;
+}
+
+.headerPrincipal-titulo {
+	font-size: 2em;
+	margin-bottom: 20px;
+  color: #fff;
+}
+
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+  color: #fff;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	
+}
+
+.headerPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerPrincipal-nav {
+	display: flex;
+}
+
+
+
+/* --- HOME --- */
+.box-mensaje {
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+  
+}
+
+.box-home-2 {
+  background-image: linear-gradient(
+      rgba(138, 191, 156, 0.5),
+      rgba(138, 191, 156, 0.5)
+    ),
+    url("../img/fondo.png");
+  padding: 150px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-home-2 article {
+  width: 67%;
+}
+
+.box-home-2 h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #5dab81;
+  padding: 20px;
+  display: inline-block;
+}
+.box-home-2 p {
+  font-size: 2rem;
+  font-style: italic;
+  color: #4d6555;
+  background-color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+
+.box-home-3 {
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.box-home-3 article {
+  width: 70%;
+}
+.box-home-3 p {
+  padding: 15px 0;
+  line-height: 1.8;
+}
+
+.box-home-3 h2 {
+  color: #5dab81;
+}
+
+.box-home-4 {
+  background-color: #8abf9c80;
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.box-home-4 h2 {
+  padding-bottom: 10px;
+  color: #4d6555;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-elem img {
+  border: 2px solid #729c3b;
+  border-radius: 50%;
+  padding: 20px;
+  max-width: 30%;
+}
+
+.card-elem {
+  max-width: 310px;
+  font-size: 0.8rem;
+  height: 410px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 50px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-elem h3 {
+  color: #56752d;
+}
+
+.saber-mas {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #8abf9c80;
+  border: 1px none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.saber-mas:hover {
+  background-color: #84b394;
+  color: #fff;
+}
+
+/* --------------------------------- CULTURA --------------------------------------- */
+body {
+  font-family: "Lato", sans-serif;
+}
+.box-mensaje {
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.box-imp {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.box-imp {
+  background-image: linear-gradient(
+      rgba(70, 101, 76, 0.08),
+      rgba(70, 101, 76, 0.08)
+    ),
+    url("../img/Culturaimg/planta.jpg");
+  padding: 30px 30px;
+  display: center;
+  justify-content: center;
+}
+
+.box-imp article {
+  width: 70%;
+}
+.box-imp p {
+  padding: 15px 0;
+  line-height: 1.8;
+}
+
+.box-imp h2 {
+  color: black;
+}
+
+/* ------ importancia --------- */
+.box-tipos {
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: letf;
+  border: 4px solid #5f9ea0;
+}
+
+.box-tipos article {
+  width: 50%;
+}
+.box-tipos p {
+  padding: 15px 0;
+  line-height: 1.8;
+}
+
+.box-tipos h2 {
+  color: #5dab81;
+  text-align: center;
+}
+
+.box-tipos img {
+  width: 150px;
+  height: 100px;
+}
+
+.box-procesos {
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  border: 4px solid #5f9ea0;
+}
+
+.box-procesos article {
+  width: 70%;
+}
+
+.box-procesos p {
+  padding: 15px 0;
+  line-height: 1.8;
+}
+
+.box-procesos h2 {
+  color: #5dab81;
+}
+
+.box-paises {
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  border: 4px solid #5f9ea0;
+}
+
+.box-paises article {
+  width: 70%;
+}
+
+.box-paises p {
+  padding: 15px 0;
+  line-height: 1.8;
+}
+
+.box-paises h2 {
+  color: #5dab81;
+}
+
+/* ---- Tabla ---- */
+table,
+th,
+td {
+  border: 4px solid #5f9ea0;
+  border-collapse: collapse;
+} /* --Borde de tabla -- */
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+} /* --Alineacion de tabla -- */
+/* <table style="background-color:blue">--Fondo tabla -- */
+/* --------------------------------- CULTURA --------------------------------------- */
+
+.containercultura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* --- FOOTER ----*/
+
+footer {
+  border-top: 1px solid #5dab81;
+  padding-top: 30px;
+  color: #4d6555;
+  margin: 80px 100px 60px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .izq img {
+  padding: 6px;
+  width: 30px;
+}
+
+footer .izq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* --- PRODUCTOS --- */
+
+
+/* --- BENEFICIOS --- */
+
+
+/* --- CONTACTO DAHILY---- */
+
+.gradient-background {
+    background: linear-gradient(260deg,#78a280,#5dab81,#c8dec9,#8abf9c,#62a07b,#44ccb0);
+    background-size: 360% 360%;
+    animation: gradient-animation 24s ease infinite;
+    padding: 30px 0;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;}}
+  
+.gradient-background h2 {
+    color: whitesmoke;
+    font-size: 32px;
+    text-align: center;
+}
+
+.gradient-background p{
+    text-align: center;
+}
+
+  /* Estilos para el formulario */
+.formulario {
+    border: 1px solid lightblue;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+  /* Estilos para los campos de formulario */
+.formulario-campo {
+    margin-bottom: 20px;
+}
+
+  /* Estilos para las etiquetas de formulario */
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+  /* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #5DAB81;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+}
+
+  /* Estilos para el botón de enviar */
+.formulario-boton {
+    background-color: #5DAB81;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  /* Estilos para el botón de limpiar campos */
+.formulario-boton[type="reset"] {
+    background-color: #5DAB81;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* --- MEDIA QUERYS --- */
+
+@media(min-width: 769px) {
+	.container {
+		width: 85%;
+	}
+
+	.headerPrincipal-nav-link {
+		border-radius: 5px;
+	}
+
+	.headerPrincipal-titulo {
+		margin: 0;
+	}
+
+	.headerPrincipal-nav {
+		width: auto;
+	}
+
+	.headerPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+	}
+
+@media (max-width: 768px) {
+  .box-home-2 article,
+  .box-home-3 article {
+    width: 85%;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.8;
+  }
+   .box-imp article {
+    width: 100%;
+  }
+}

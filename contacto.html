@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mundo Verde</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <header class="headerPrincipal">
+    <div class="container">
+        <h1 class="headerPrincipal-titulo"> <a href="#">Mundo Verde</a> </h1>
+        <nav class="headerPrincipal-nav">
+        <a class="headerPrincipal-nav-link" href="index.html">Home</a>
+        <a class="headerPrincipal-nav-link" href="cultura.html">Cultura de reciclaje</a>
+        <a class="headerPrincipal-nav-link" href="productos.html">Productos</a>
+        <a class="headerPrincipal-nav-link" href="beneficios.html">Beneficios del reciclaje</a>
+        <a class="headerPrincipal-nav-link" href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div class="gradient-background">
+        <h2>Contáctanos</h2>
+        <p>¿Dudas, críticas, sugerencias o elogios?</p>
+
+        <!-- Formulario de Contacto-->
+        <fieldset class="formulario">
+            <legend>Formulario de contacto</legend>
+            <form action="enviar_formulario" method="POST">
+                <div class="formulario-campo">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" placeholder="Nombre" required name="nombre">
+</div>
+<div class="formulario-campo">
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" placeholder="Apellido" required name="apellido">
+</div>
+<div class="formulario-campo">
+    <label for="correo">Correo Electrónico</label>
+    <input type="email" id="correo" placeholder="Email" required name="correo">
+</div>
+<div class="formulario-campo">
+    <label for="mensaje">Mensaje</label>
+    <textarea name="comentario" id="mensaje" cols="60" rows="10"
+    placeholder="Escriba aquí su mensaje." required></textarea>
+</div>
+<input type="submit" value="Enviar" class="formulario-boton">
+<input type="reset" value="Limpiar campos" class="formulario-boton">
+            </form>
+        </fieldset>
+        </div>
+    </main>
+
+       <!-- PIE DE PAGINA -->
+  <footer>
+    <section class="der">
+      <p>© 2023 Mundo Verde. Todos los derechos reservados.</p>
+      <a href="contacto.html">Contacto</a>
+      <p>info@mundoverde.org</p>
+    </section>
+    <section class="izq">
+      <p>Siguenos en nuestras redes sociales</p>
+      <div class="icons">
+        <img src="img/fb.png" alt="Facebook">
+        <img src="img/ig.png" alt="Instagram">
+        <img src="img/tw.png" alt="Twitter">
+      </div>
+    </section>
+  </footer>
+    </body>
+</html>
