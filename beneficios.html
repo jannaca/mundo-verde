@@ -1,57 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo verde</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flexbox.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!--  GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!--Estilos-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Mundo verde | Jump</title>
 </head>
+
 <body>
-    <header class="headerPrincipal">
-    <div class="container">
-      <h1 class="headerPrincipal-titulo">
-        <a href="#">Mundo Verde</a>
-      </h1>
-      <nav class="headerPrincipal-nav">
-        <a class="headerPrincipal-nav-link" href="index.html">Home</a>
-        <a class="headerPrincipal-nav-link" href="cultura.html">Cultura de reciclaje</a>
-        <a class="headerPrincipal-nav-link" href="productos.html">Productos</a>
-        <a class="headerPrincipal-nav-link" href="beneficios.html">Beneficios del reciclaje</a>
-        <a class="headerPrincipal-nav-link" href="contacto.html">Contacto</a>
-      </nav>
-    </div>
+  <header>
+    <!-- Menu de Navegacion-->
+    <nav>
+      <div class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" width="50" height="50"
+              class="d-inline-block align-text-center mx-2">Mundo verde</a>
+          <button class="navbar-toggler border-light-subtle" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link link-light" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" aria-current="page" href="cultura.html">Cultura de reciclaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="beneficios.html">Beneficios del reciclaje</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link link-light" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
   </header>
   <article>
-  <h2> Beneficios del reciclaje </h2>
-  <p> En las últimas décadas vemos cada vez más personas que son concientes de los residuos que generan y su impacto en el medio ambiente, es a partir de esta concientización que hay un número creciente de consumidores responsables que optan por la regla de las 3 erres: Reducir, Reutilizar y Reciclar.
-  </p>
-  <h3> ¿En qué consiste la regla de las 3 erres?</h3>
-  <p> 
-  - Reducir: La idea es disminuir considerablemente el nivel de basura que se genera a través de las siguientes estrategias: 
-  <li>Evitar plásticos de un sólo uso (por ejemplo: descartables)</li>
-  <li>Optar por materiales de mayor duración (por ejemplo: metal en vez de plástico)</li>
-  <li>Consumir productos con el menor cantidad de packaging posible</li>
-  <li>Ir al trabajo en bicicleta o transporte público en vez de tu propio auto</li>
-  - Reutilizar: Se pretende buscar diferentes usos a un determinado producto antes de desecharlo definitivamente, algunas opciones son las siguientes:
-    <li>Utilizar los papeles ya usados como borradores</li>
-    <li>Transformar envases de productos en diversos objetos</li>
-  -Reciclar: Se busca concientizar sobre separar la basura de acuerdo a su material y tiempo de degradación. Entre las estrategias que podemos adoptar están las siguientes:
-    <li>Aprender a compostar nuestros residuos orgánicos</li>
-    <li>Informarnos sobre iniciativas locales que reciclan plásticos para un determinado fin, por ejemplo: ecoladrillos.</li>
-  </p>    
+    <h2> Beneficios del reciclaje </h2>
+    <p> En las últimas décadas vemos cada vez más personas que son concientes de los residuos que generan y su impacto
+      en el medio ambiente, es a partir de esta concientización que hay un número creciente de consumidores responsables
+      que optan por la regla de las 3 erres: Reducir, Reutilizar y Reciclar.
+    </p>
+    <h3> ¿En qué consiste la regla de las 3 erres?</h3>
+    <p>
+      - Reducir: La idea es disminuir considerablemente el nivel de basura que se genera a través de las siguientes
+      estrategias:
+      <li>Evitar plásticos de un sólo uso (por ejemplo: descartables)</li>
+      <li>Optar por materiales de mayor duración (por ejemplo: metal en vez de plástico)</li>
+      <li>Consumir productos con el menor cantidad de packaging posible</li>
+      <li>Ir al trabajo en bicicleta o transporte público en vez de tu propio auto</li>
+      - Reutilizar: Se pretende buscar diferentes usos a un determinado producto antes de desecharlo definitivamente,
+      algunas opciones son las siguientes:
+      <li>Utilizar los papeles ya usados como borradores</li>
+      <li>Transformar envases de productos en diversos objetos</li>
+      -Reciclar: Se busca concientizar sobre separar la basura de acuerdo a su material y tiempo de degradación. Entre
+      las estrategias que podemos adoptar están las siguientes:
+      <li>Aprender a compostar nuestros residuos orgánicos</li>
+      <li>Informarnos sobre iniciativas locales que reciclan plásticos para un determinado fin, por ejemplo:
+        ecoladrillos.</li>
+    </p>
     <h3>¿Cómo nos beneficia incorporar este tipo de prácticas a nuestra vida?</h3>
-    <p> Incorporar un estilo de vida más amigable con el medio ambiente nos beneficia a todos/as. A continuación enumeramos algunos de las ventajas que nos trae desde diversos puntos de vista:
-    <li>Económicamente: Tenemos menos gastos (ya que optamos por productos de mayor durabilidad, disminuimos el gasto de algunos servicios básicos) </li>
-      <li>Ambientalmente: Al modificar pequeños hábitos de consumo logramos reducir nuestra huella de carbono. Para calcular su huella de carbono, puede hacer click en el siguiente link: <a href="www.mihuelladecarbono.app"</a></li>
+    <p> Incorporar un estilo de vida más amigable con el medio ambiente nos beneficia a todos/as. A continuación
+      enumeramos algunos de las ventajas que nos trae desde diversos puntos de vista:
+      <li>Económicamente: Tenemos menos gastos (ya que optamos por productos de mayor durabilidad, disminuimos el gasto
+        de algunos servicios básicos) </li>
+      <li>Ambientalmente: Al modificar pequeños hábitos de consumo logramos reducir nuestra huella de carbono. Para
+        calcular su huella de carbono, puede hacer click en el siguiente link: <a
+          href="www.mihuelladecarbono.app">Huella de Carbono</a>
+      </li>
       <li>Culturalmente: Aprendemos y a su vez, enseñamos nuevos hábitos a los más pequeños de la familia. </li>
     </p>
-    </article> 
+  </article>
 
 
 
-    <!-- PIE DE PAGINA -->
+  <!-- PIE DE PAGINA -->
   <footer>
     <section class="der">
       <p>© 2023 Mundo Verde. Todos los derechos reservados.</p>
@@ -67,6 +113,9 @@
       </div>
     </section>
   </footer>
-</body> 
-</html> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
 
+</html>

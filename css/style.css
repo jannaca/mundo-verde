@@ -17,50 +17,15 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-/* --- MENU DE NAVEGACION --- */
 
-.container {
-	width: 94%;
-	margin: 0 auto;
+/*MENU DE NAVEGACION CON BOOTSTRAP */
+.navbar {
+  background-color: #8BBD9A;
 }
 
-.headerPrincipal {
-	background-color: #8BBD9A;
-	padding: 20px 0;
+.navbar a:hover{
+  color: #4d6555;
 }
-
-.headerPrincipal-titulo {
-	font-size: 2em;
-	margin-bottom: 20px;
-  color: #fff;
-}
-
-.headerPrincipal-titulo a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.headerPrincipal-nav-link {
-	padding: 10px;
-	margin-bottom: 10px;
-  color: #fff;
-	text-decoration: none;
-	transition: .5s;
-	display: block;
-	
-}
-
-.headerPrincipal .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.headerPrincipal-nav {
-	display: flex;
-}
-
-
 
 /* --- HOME --- */
 .box-mensaje {
@@ -99,7 +64,7 @@ body {
   color: #4d6555;
   background-color: #fff;
   padding: 20px;
-  display: inline-block;
+  display:block;
 }
 
 .box-home-3 {
@@ -142,7 +107,7 @@ body {
   border: 2px solid #729c3b;
   border-radius: 50%;
   padding: 20px;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .card-elem {
@@ -161,7 +126,7 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.card-elem h3 {
+.card-elem h4 {
   color: #56752d;
 }
 
@@ -324,13 +289,21 @@ footer {
 
 footer .izq img {
   padding: 6px;
-  width: 30px;
+  width: 45px;
 }
 
 footer .izq {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+footer .izq p,footer .der p{
+  margin: 0;
+}
+
+footer .der a {
+  color: #4d6555;
 }
 
 
@@ -379,6 +352,10 @@ footer .izq {
  color: #fff;
 }
 
+
+.item-producto{
+  width: 350px;
+}
 
 
 /* --- BENEFICIOS --- */
