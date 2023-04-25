@@ -336,6 +336,50 @@ footer .izq {
 
 /* --- PRODUCTOS --- */
 
+.fondo-producto{
+  padding: 90px;
+  background-image:linear-gradient(
+    rgba(138, 191, 156, 0.5),
+    rgba(138, 191, 156, 0.5)
+  ), url("../img/Productos/fondo.jpg");
+  /* background-image: linear-gradient(
+      rgba(138, 191, 156, 0.5),
+      rgba(138, 191, 156, 0.5)
+    ),
+    url("../img/Productos/fondo.jpg"); */
+
+}
+
+.fondo-producto h2{
+  color: #fff;
+  background-color: #5dab81;
+  padding: 20px;
+  display: inline-block;
+}
+
+.productos {
+  background-color: #84b394bd;
+}
+.box-productos .item-producto {
+  max-width: 400px;
+  max-height: 530px;
+ 
+}
+.item-producto{
+  display: flex;
+}
+.item-producto .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-producto .card-body button:active{
+ background-color: #84b394;
+ color: #fff;
+}
+
+
 
 /* --- BENEFICIOS --- */
 
