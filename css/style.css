@@ -65,6 +65,7 @@ body {
   background-color: #fff;
   padding: 20px;
   display:block;
+  max-width: 950px;
 }
 
 .box-home-3 {
