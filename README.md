@@ -1,7 +1,7 @@
 # mundo-verde
 
 <h1 align="center"> -----🍃 Mundo Verde 🍃----- </h1>
-<p align="center"><img src="/mundo-verde/img/logo.png" align="center"/></p>
+<p align="center"><img src="img/logo.png" align="center"/></p>
 
 <h2 align="center">Proyecto final - Codear Futura: Programación Web Frontend</h2>
 <p align="center">Sitio web diseñado para concienciar acerca de la relevancia del reciclaje.</p>
