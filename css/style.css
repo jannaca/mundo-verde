@@ -396,6 +396,7 @@ footer .der a {
     margin: 0 auto;
     max-width: 400px;
     padding: 20px;
+    border-radius: 10px;
 }
 
   /* Estilos para los campos de formulario */
@@ -419,7 +420,7 @@ textarea {
     border-radius: 5px;
     font-size: 16px;
     padding: 10px;
-    width: 80%;
+    width: 100%;
 }
 
   /* Estilos para el botón de enviar */
