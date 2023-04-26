@@ -156,126 +156,381 @@ body {
   text-align: center;
   font-style: italic;
 }
-
 .box-imp {
   text-align: center;
   padding: 10px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.box-imp {
-  background-image: linear-gradient(
-      rgba(70, 101, 76, 0.08),
-      rgba(70, 101, 76, 0.08)
-    ),
-    url("../img/Culturaimg/planta.jpg");
+  background-color: #8abf9c80;
   padding: 30px 30px;
   display: center;
   justify-content: center;
 }
-
+.box-imp iframe{
+  border-radius: 30px;
+}
+  
 .box-imp article {
-  width: 70%;
+  width: 100%;
 }
 .box-imp p {
   padding: 15px 0;
   line-height: 1.8;
-}
+  }
 
 .box-imp h2 {
-  color: black;
-}
-
-/* ------ importancia --------- */
-.box-tipos {
-  text-align: center;
-  padding: 50px 0;
-  display: flex;
-  justify-content: letf;
-  border: 4px solid #5f9ea0;
-}
-
-.box-tipos article {
-  width: 50%;
-}
-.box-tipos p {
-  padding: 15px 0;
-  line-height: 1.8;
-}
-
-.box-tipos h2 {
   color: #5dab81;
+}
+
+.box-titulo{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+ }
+.box-titulo h2 {
+  padding: 10px;
+    text-align: center;
+  color: #5dab81;
+}
+.box-titulo p{
+  padding: 10px;
   text-align: center;
 }
 
-.box-tipos img {
-  width: 150px;
-  height: 100px;
-}
-
-.box-procesos {
+.containertipos {
   text-align: center;
   padding: 50px 0;
   display: flex;
   justify-content: center;
-  border: 4px solid #5f9ea0;
-}
-
-.box-procesos article {
-  width: 70%;
-}
-
-.box-procesos p {
-  padding: 15px 0;
-  line-height: 1.8;
-}
-
-.box-procesos h2 {
-  color: #5dab81;
-}
-
-.box-paises {
-  text-align: center;
-  padding: 50px 0;
-  display: flex;
-  justify-content: center;
-  border: 4px solid #5f9ea0;
-}
-
-.box-paises article {
-  width: 70%;
-}
-
-.box-paises p {
-  padding: 15px 0;
-  line-height: 1.8;
-}
-
-.box-paises h2 {
-  color: #5dab81;
-}
-
-/* ---- Tabla ---- */
-table,
-th,
-td {
-  border: 4px solid #5f9ea0;
-  border-collapse: collapse;
-} /* --Borde de tabla -- */
-table.center {
-  margin-left: auto;
-  margin-right: auto;
-} /* --Alineacion de tabla -- */
-/* <table style="background-color:blue">--Fondo tabla -- */
-/* --------------------------------- CULTURA --------------------------------------- */
-
-.containercultura {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 100%;
   flex-wrap: wrap;
+  background-color: #8abf9c80;
 }
+
+.uno{
+  width:220px;
+  height:270px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.uno img{
+  width:  200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.uno p{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.uno:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+.dos{
+  width:220px;
+  height:270px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.dos img{
+  width:  200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.dos p{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.dos:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+.tres{
+  width:220px;
+  height:270px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.tres img{
+  width:  200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.tres p{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.tres:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+.cuatro{
+  width:220px;
+  height:270px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.cuatro img{
+  width:  200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.cuatro p{ 
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.cuatro:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+
+.cinco {
+  width:220px;
+  height:270px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.cinco img{
+  width:  200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.cinco p{ 
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.cinco:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+
+
+.containerprocesos{
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #8abf9c80;
+ 
+}
+
+.mecanico{
+  width:320px;
+  height:320px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.mecanico img{
+  width:  70%;
+  height: 60%;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+ 
+}
+.mecanico p{ 
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.mecanico:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+.quimico{
+  width:320px;
+  height:320px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+
+}
+.quimico img{
+  width:  70%;
+  height: 60%;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.quimico p{ 
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.quimico:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+
+.energetico {
+  width:320px;
+  height:320px;
+  overflow:hidden;
+  align-content: center;
+  cursor: pointer;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 30px;
+  background-color: #5DAB81;
+}
+.energetico img{
+  width:  70%;
+  height: 60%;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black ;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.energetico p{ 
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.energetico:hover {
+  transform:scale(1.1);
+  box-shadow: 13px 15px 37px black ;
+}
+
+.titulo_procesos{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+
+}
+.titulo_procesos h2 {
+  padding-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+  color: #5dab81;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.titulo_procesos p{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.canecas {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #8abf9c80;
+  padding: 30px 30px;
+  display: center;
+  justify-content: center;
+}
+.canecas iframe{
+  border-radius: 30px;
+}
+  
+.canecas article {
+  width: 100%;
+}
+.canecas p {
+  padding: 15px 0;
+  line-height: 1.8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+.canecas h2 {
+  color: #5dab81;
+}
+
+/* --- Fin cultura ----*/
 
 /* --- FOOTER ----*/
 
@@ -360,6 +615,184 @@ footer .der a {
 
 
 /* --- BENEFICIOS --- */
+/* --------------------------------- BENEFICIOS --------------------------------------- */
+.encabezado {
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Titulo2 {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #8abf9c80;
+  padding: 30px 30px;
+  display: center;
+  justify-content: center;
+}
+.Titulo2 p {
+  text-align: center;
+  padding: 10px 0;
+  padding: 30px 30px;
+  display: center;
+  justify-content: center;
+}
+
+.Titulo2 h2 {
+    color: #5dab81;
+}
+
+.Titulo3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+ }
+.Titulo3 h2 {
+  padding: 10px;
+    text-align: center;
+  color: #5dab81;
+}
+.Titulo3 p{
+  padding: 10px;
+  text-align: center;
+}
+
+.content-casos {
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  width: 100%;
+  flex-wrap:wrap;
+  background-color: #8abf9c80;
+  justify-content: space-between ;
+}
+.box-caso1{
+  width:30%;
+  overflow:hidden;
+  align-content: center;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.box-caso1 h4 {
+  padding-top: 20px;
+}
+.box-caso1 p {
+  padding-top: 20px;
+}
+.box-caso1 iframe {
+  Width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.box-caso2{
+  width:30%;
+  overflow:hidden;
+  align-content: center;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.box-caso2 h4 {
+  padding-top: 20px;
+}
+.box-caso2 p {
+  padding-top: 20px;
+}
+.box-caso2 iframe {
+  Width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.box-caso3{
+  width:30%;
+  overflow:hidden;
+  align-content: center;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.box-caso3 h4 {
+  padding-top: 20px;
+}
+.box-caso3 p {
+  padding-top: 20px;
+}
+.box-caso3 iframe {
+  Width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.imagenes{
+  display:flex;
+  width: 900;
+  height: 450;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  background-color: #8abf9c80;
+ 
+}
+
+.imagenes img{
+  width:0px;
+  flex-grow:1.5;
+  object-fit: cover;
+  opacity:.8;
+  transition: .5s ease;
+  border-radius: 20px;
+  border: 2px dashed gray;
+}
+.imagenes img:hover{
+cursor: crosshair;
+width:200px;
+opacity:1;
+filter: contrast(100%);
+}
+
+.Titulo4 {
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Titulo4 p {
+  padding: 10px;
+}
+
+.info a {
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+  background-color: #8abf9c80;
+}
+
+.Titulo4 h4 {
+  padding: 10px;
+}
+/* --------------------------------- BENEFIcios --------------------------------------- */
 
 
 /* --- CONTACTO DAHILY---- */
@@ -449,6 +882,30 @@ textarea {
 
 /* --- MEDIA QUERYS --- */
 
+/* --- cultura --- */
+@media (max-width: 400px){
+  .box-imp iframe{
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px){
+  .canecas iframe{
+    width: 70%;
+  }
+}
+@media (min-width: 400px){
+  .canecas iframe{
+    width: 70%;
+  }
+}
+
+/* --- beneficios --- */
+@media (max-width: 400px){
+  .content-casos{
+    width: 70%;
+  }
+} 
 @media(min-width: 769px) {
 	.container {
 		width: 85%;
