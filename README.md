@@ -8,7 +8,6 @@
 
 👩🏻‍💻👩🏻‍💻Realizado en grupo por las siguientes estudiantes:
 
-- [Dahily Karina Manzano](https://github.com/dahilykm)
 - [Janna Arrioja](https://github.com/jannaca)
 - [Paula Tatiana Martínez](https://github.com/PaulaMartinezING)
 

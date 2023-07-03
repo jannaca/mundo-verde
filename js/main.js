@@ -14,6 +14,7 @@ const resultadosIncorrectos = document.querySelector(".total-incorrectas");
 const resultadosPreguntas = document.querySelector(".total-preguntas");
 const resultadosPorcentaje = document.querySelector(".porcentaje");
 const resultadosTotal = document.querySelector(".total-puntuaje");
+const resultadosPuntuajeMasAlto = document.querySelector(".puntuaje-mas-alto");
 const btnEmpezar = document.querySelector(".btn-empezar");
 const sectionOcultar = document.querySelector(".section-ocultar");
 const containerTrivia = document.querySelector(".container-trivia");
@@ -75,17 +76,15 @@ const señalarResultado = (e) => {
     elemento.classList.contains("option") &&
     elemento.id == preguntaActual.respuesta
   ) {
-    console.log("Correcto");
     respuestasCorrectas++;
-    console.log(respuestasCorrectas);
+
     elemento.classList.add("correcto");
   } else if (
     elemento.classList.contains("option") &&
     elemento.id !== preguntaActual.respuesta
   ) {
-    console.log("Incorrecto");
     respuestasIncorrectas++;
-    console.log(respuestasIncorrectas);
+
     elemento.classList.add("incorrecto");
 
     //En caso de ser incorrecta la pregunta señala cual SI era la respuesta correcta
@@ -100,7 +99,6 @@ const señalarResultado = (e) => {
 
 const siguientePregunta = () => {
   if (contadorDePreguntas == baseDeDatos.length) {
-    console.log("Juego terminado");
     containerTrivia.classList.add("d-none");
     containerResultado.classList.remove("d-none");
     mostrarResultados();
@@ -125,6 +123,14 @@ const mostrarResultados = () => {
     (respuestasCorrectas / baseDeDatos.length) * 100
   }%`;
   resultadosTotal.innerText = `${respuestasCorrectas} / ${baseDeDatos.length}`;
+
+  localStorage.setItem("puntaje", respuestasCorrectas);
+  let puntajeMaximo = localStorage.getItem("puntajeMaximo");
+  if (puntajeMaximo === null || respuestasCorrectas > puntajeMaximo) {
+    localStorage.setItem("puntajeMaximo", respuestasCorrectas);
+    puntajeMaximo = respuestasCorrectas;
+  }
+  resultadosPuntuajeMasAlto.innerHTML = `${puntajeMaximo} / ${baseDeDatos.length}`;
 };
 
 // ------ Eventos -------
