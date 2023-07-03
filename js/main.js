@@ -14,7 +14,7 @@ const resultadosIncorrectos = document.querySelector(".total-incorrectas");
 const resultadosPreguntas = document.querySelector(".total-preguntas");
 const resultadosPorcentaje = document.querySelector(".porcentaje");
 const resultadosTotal = document.querySelector(".total-puntuaje");
-const resultadosPuntuajeMasAlto = document.querySelector(".puntuaje-mas-alto");
+const resultadosPuntajeMasAlto = document.querySelector(".puntuaje-mas-alto");
 const btnEmpezar = document.querySelector(".btn-empezar");
 const sectionOcultar = document.querySelector(".section-ocultar");
 const containerTrivia = document.querySelector(".container-trivia");
@@ -130,7 +130,7 @@ const mostrarResultados = () => {
     localStorage.setItem("puntajeMaximo", respuestasCorrectas);
     puntajeMaximo = respuestasCorrectas;
   }
-  resultadosPuntuajeMasAlto.innerHTML = `${puntajeMaximo} / ${baseDeDatos.length}`;
+  resultadosPuntajeMasAlto.innerHTML = `${puntajeMaximo} / ${baseDeDatos.length}`;
 };
 
 // ------ Eventos -------
