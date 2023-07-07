@@ -5,14 +5,14 @@ let baseDeDatos = [
       "respuesta": 3,
     },
     {
-      "pregunta": "El reciclaje es un proceso que consume mucha energía y recursos.",
+      "pregunta": "El reciclaje es un proceso que no ahorra en recursos y energía.",
       "opciones": ["Verdadero", "Falso"],
       "respuesta": 1,
     },
     {
       "pregunta": "¿Qué color de contenedor se utiliza para reciclar papel?",
-      "opciones": ["Azul", "Verde", "Amarillo", "Marrón"],
-      "respuesta": 0,
+      "opciones": ["Verde","Azul","Amarillo", "Marrón"],
+      "respuesta": 1,
     },
     {
       "pregunta": "El reciclaje de papel es más eficiente que el de plástico.",
@@ -20,7 +20,7 @@ let baseDeDatos = [
       "respuesta": 0,
     },
     {
-      "pregunta": "¿Qué tipo de material no se debe reciclar?",
+      "pregunta": "¿Qué tipo de material se recicla menos?",
       "opciones": ["Papel", "Vidrio", "Plástico", "Pilas"],
       "respuesta": 3,
     },
