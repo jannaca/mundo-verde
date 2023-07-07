@@ -18,10 +18,14 @@ Crear un sitio web responsive.
 
 - HTML Semántico.
 - Propiedades CSS para modificar los textos, encabezados, img, colores, background y box modeling.
-- Posicionamiento de elementos haciendo uso de flexbox y grid.
+- Posicionamiento de elementos haciendo uso de flexbox.
 - Diseño Responsive.
 - CDN de Bootstrap.
-- SEO.
+- JavaScript
+- DOM
+- LocalStorage
+- Base de datos en formato JSON
+- API
 
 ⚙ El proyecto no necesita de ninguna instrucción especial para ejecutarlo.
 Solo conexión a internet y un navegador.
