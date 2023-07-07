@@ -1,6 +1,3 @@
-// let preguntas = require("./preguntas.json")
-// console.log(preguntas);
-
 //Copia de la base de datos
 let preguntas = [...baseDeDatos];
 

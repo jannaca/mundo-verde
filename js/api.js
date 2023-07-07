@@ -1,5 +1,5 @@
 const contenedorGaleria = document.querySelector(".caja-fotos");
-const numeroAleatorio = Math.floor(Math.random() * 20);
+const numeroAleatorio = Math.floor(Math.random() * 20) + 1;
 const url =
   "https://pixabay.com/api/?key=35516619-30dc8f5e33d6099bd7893ed2e&q=environment&image_type=photo&per_page=3&page=" +
   numeroAleatorio;
